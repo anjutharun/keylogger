@@ -1,0 +1,9 @@
+# Create a simple GUI
+window = tk.Tk()
+window.title("Keylogger")
+window.geometry("300x150")
+start_button = tk.Button(window, text="Start Keylogger", command=start_keylogger)
+start_button.pack(pady=10)
+stop_button = tk.Button(window, text="Stop Keylogger", command=stop_keylogger)
+stop_button.pack(pady=10)
+window.mainloop()
